@@ -1,4 +1,5 @@
 import AppHeader from "../components/AppHeader.tsx";
+import HelloWorld from "../components/HelloWorld.tsx";
 
 export default function HelloPage(){
 
@@ -6,7 +7,7 @@ export default function HelloPage(){
     return(
         <>
         <AppHeader/>
-        <HelloPage/>
+        <HelloWorld/>
         </>
     )
 }
